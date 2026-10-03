@@ -1,0 +1,322 @@
+[
+  {
+    "id": "pol-alice-s3",
+    "policy_name": "Alice-Full-S3-Policy",
+    "user_id": "usr-alice",
+    "service": "S3",
+    "description": "Full access to S3 service for security testing",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:*", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-bob-ec2",
+    "policy_name": "Bob-EC2-Admin-Policy",
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "description": "Wildcard access to EC2 management",
+    "permissions": [
+      {"effect": "Allow", "action": "ec2:*", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-charlie-lambda",
+    "policy_name": "Charlie-Lambda-Execution-Policy",
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "description": "Full Lambda management policy",
+    "permissions": [
+      {"effect": "Allow", "action": "lambda:*", "resource": "arn:aws:lambda:us-east-1:123456789012:function:*"}
+    ]
+  },
+  {
+    "id": "pol-david-rds",
+    "policy_name": "David-RDS-Full-Access",
+    "user_id": "usr-david",
+    "service": "RDS",
+    "description": "Full access to RDS including deletion",
+    "permissions": [
+      {"effect": "Allow", "action": "rds:*", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-eve-s3-read",
+    "policy_name": "Eve-S3-ReadOnly",
+    "user_id": "usr-eve",
+    "service": "S3",
+    "description": "Narrowly scoped read-only access to assets bucket",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::frontend-assets/*"}
+    ]
+  },
+  {
+    "id": "pol-frank-iam",
+    "policy_name": "Frank-IAM-Management",
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "description": "IAM administration permissions",
+    "permissions": [
+      {"effect": "Allow", "action": "iam:DeleteUser", "resource": "*"},
+      {"effect": "Allow", "action": "iam:PassRole", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-grace-ec2",
+    "policy_name": "Grace-EC2-Operator",
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "description": "EC2 lifecycle management",
+    "permissions": [
+      {"effect": "Allow", "action": "ec2:StartInstances", "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*"},
+      {"effect": "Allow", "action": "ec2:StopInstances", "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*"},
+      {"effect": "Allow", "action": "ec2:TerminateInstances", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-heidi-s3-test",
+    "policy_name": "Heidi-S3-Test-Data",
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "description": "Access to test data bucket",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::qa-test-data/*"},
+      {"effect": "Allow", "action": "s3:PutObject", "resource": "arn:aws:s3:::qa-test-data/*"},
+      {"effect": "Allow", "action": "s3:DeleteObject", "resource": "arn:aws:s3:::qa-test-data/*"}
+    ]
+  },
+  {
+    "id": "pol-ivan-rds-query",
+    "policy_name": "Ivan-RDS-Describe",
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "description": "RDS describe and snapshot access",
+    "permissions": [
+      {"effect": "Allow", "action": "rds:DescribeDBInstances", "resource": "*"},
+      {"effect": "Allow", "action": "rds:DeleteDBInstance", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-judy-audit-logs",
+    "policy_name": "Judy-CloudTrail-Audit",
+    "user_id": "usr-judy",
+    "service": "S3",
+    "description": "S3 audit logs read access",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::audit-logs-2026/*"}
+    ]
+  },
+  {
+    "id": "pol-mallory-lambda-invoker",
+    "policy_name": "Mallory-Lambda-Invoker",
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "description": "Lambda invocation and deletion permissions",
+    "permissions": [
+      {"effect": "Allow", "action": "lambda:InvokeFunction", "resource": "*"},
+      {"effect": "Allow", "action": "lambda:DeleteFunction", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-oscar-ec2-full",
+    "policy_name": "Oscar-SRE-EC2",
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "description": "SRE EC2 full lifecycle access",
+    "permissions": [
+      {"effect": "Allow", "action": "ec2:*", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-peggy-s3-reports",
+    "policy_name": "Peggy-Product-Reports",
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "description": "Product analytics report storage",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::product-analytics/*"},
+      {"effect": "Allow", "action": "s3:PutObject", "resource": "arn:aws:s3:::product-analytics/*"},
+      {"effect": "Allow", "action": "s3:DeleteObject", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-sybil-iam-passrole",
+    "policy_name": "Sybil-SysAdmin-IAM",
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "description": "IAM passrole and policy management",
+    "permissions": [
+      {"effect": "Allow", "action": "iam:PassRole", "resource": "*"},
+      {"effect": "Allow", "action": "iam:DeleteRole", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-trent-ec2-describe",
+    "policy_name": "Trent-Network-EC2",
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "description": "Describe instances for network mapping",
+    "permissions": [
+      {"effect": "Allow", "action": "ec2:DescribeInstances", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-victor-s3-audit",
+    "policy_name": "Victor-Audit-S3",
+    "user_id": "usr-victor",
+    "service": "S3",
+    "description": "Broad auditor read access",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "*"},
+      {"effect": "Allow", "action": "s3:ListBucket", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-walter-s3-ml",
+    "policy_name": "Walter-ML-Datasets",
+    "user_id": "usr-walter",
+    "service": "S3",
+    "description": "Data science bucket access",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:*", "resource": "arn:aws:s3:::ml-training-data/*"}
+    ]
+  },
+  {
+    "id": "pol-xavier-devops-lambda",
+    "policy_name": "Xavier-Lambda-Deploy",
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "description": "Lambda deployment permissions",
+    "permissions": [
+      {"effect": "Allow", "action": "lambda:CreateFunction", "resource": "*"},
+      {"effect": "Allow", "action": "lambda:InvokeFunction", "resource": "*"},
+      {"effect": "Allow", "action": "lambda:DeleteFunction", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-yvonne-s3-uploads",
+    "policy_name": "Yvonne-User-Uploads",
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "description": "User media upload processing",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::user-uploads/*"},
+      {"effect": "Allow", "action": "s3:PutObject", "resource": "arn:aws:s3:::user-uploads/*"},
+      {"effect": "Allow", "action": "s3:DeleteObject", "resource": "arn:aws:s3:::user-uploads/*"}
+    ]
+  },
+  {
+    "id": "pol-zack-architect-master",
+    "policy_name": "Zack-Cloud-Master",
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "description": "Master architect IAM policy",
+    "permissions": [
+      {"effect": "Allow", "action": "*", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-alice-ec2-extra",
+    "policy_name": "Alice-EC2-Monitor",
+    "user_id": "usr-alice",
+    "service": "EC2",
+    "description": "Monitoring EC2 instances",
+    "permissions": [
+      {"effect": "Allow", "action": "ec2:DescribeInstances", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-bob-s3-logs",
+    "policy_name": "Bob-S3-DevOps-Logs",
+    "user_id": "usr-bob",
+    "service": "S3",
+    "description": "Access to infrastructure logs",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::infra-logs/*"},
+      {"effect": "Allow", "action": "s3:PutObject", "resource": "arn:aws:s3:::infra-logs/*"}
+    ]
+  },
+  {
+    "id": "pol-charlie-rds-connect",
+    "policy_name": "Charlie-DB-Connect",
+    "user_id": "usr-charlie",
+    "service": "RDS",
+    "description": "RDS read access for backend service",
+    "permissions": [
+      {"effect": "Allow", "action": "rds:DescribeDBInstances", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-david-s3-backup",
+    "policy_name": "David-DB-Backups",
+    "user_id": "usr-david",
+    "service": "S3",
+    "description": "Database backup bucket access",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:GetObject", "resource": "arn:aws:s3:::db-backups/*"},
+      {"effect": "Allow", "action": "s3:PutObject", "resource": "arn:aws:s3:::db-backups/*"},
+      {"effect": "Allow", "action": "s3:DeleteObject", "resource": "arn:aws:s3:::db-backups/*"}
+    ]
+  },
+  {
+    "id": "pol-eve-lambda-api",
+    "policy_name": "Eve-Frontend-Lambda",
+    "user_id": "usr-eve",
+    "service": "Lambda",
+    "description": "Frontend API invocation",
+    "permissions": [
+      {"effect": "Allow", "action": "lambda:InvokeFunction", "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-*"}
+    ]
+  },
+  {
+    "id": "pol-frank-s3-forensics",
+    "policy_name": "Frank-Forensics-Bucket",
+    "user_id": "usr-frank",
+    "service": "S3",
+    "description": "Evidence bucket access",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:*", "resource": "arn:aws:s3:::security-evidence/*"}
+    ]
+  },
+  {
+    "id": "pol-grace-rds-cluster",
+    "policy_name": "Grace-RDS-Ops",
+    "user_id": "usr-grace",
+    "service": "RDS",
+    "description": "RDS describe and reboot",
+    "permissions": [
+      {"effect": "Allow", "action": "rds:DescribeDBInstances", "resource": "*"},
+      {"effect": "Allow", "action": "rds:RebootDBInstance", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-heidi-lambda-tests",
+    "policy_name": "Heidi-Lambda-QA",
+    "user_id": "usr-heidi",
+    "service": "Lambda",
+    "description": "QA function execution",
+    "permissions": [
+      {"effect": "Allow", "action": "lambda:InvokeFunction", "resource": "*"}
+    ]
+  },
+  {
+    "id": "pol-ivan-s3-export",
+    "policy_name": "Ivan-Analytics-Export",
+    "user_id": "usr-ivan",
+    "service": "S3",
+    "description": "Analytics export bucket",
+    "permissions": [
+      {"effect": "Allow", "action": "s3:PutObject", "resource": "arn:aws:s3:::analytics-exports/*"}
+    ]
+  },
+  {
+    "id": "pol-judy-iam-read",
+    "policy_name": "Judy-IAM-Auditor",
+    "user_id": "usr-judy",
+    "service": "IAM",
+    "description": "Compliance read-only IAM access",
+    "permissions": [
+      {"effect": "Allow", "action": "iam:GetUser", "resource": "*"},
+      {"effect": "Allow", "action": "iam:ListUsers", "resource": "*"}
+    ]
+  }
+]

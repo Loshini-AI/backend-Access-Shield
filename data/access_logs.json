@@ -1,0 +1,5002 @@
+[
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_0.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_1.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_2.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_3.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_4.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_5.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_6.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_7.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_8.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_9.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_0.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_1.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_2.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_3.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_4.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_5.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_6.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_7.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_8.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_9.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_0.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_1.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_2.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_3.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_4.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_5.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_6.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_7.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_8.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_9.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_0.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_1.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_2.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_3.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_4.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_5.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_6.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_7.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_8.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_9.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_0.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_1.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_2.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_3.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_4.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_5.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_6.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_7.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::production-data/report_8.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-alice",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::production-data/report_9.csv",
+    "status": "SUCCESS",
+    "source_ip": "192.168.1.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.0.0",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.1.1",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.2.2",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.3.3",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.4.4",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.5.5",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.6.6",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.7.7",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.8.8",
+    "region": "us-east-1",
+    "timestamp": "2026-09-03T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.9.9",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.10.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.11.11",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.12.12",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.13.13",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.14.14",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.15.15",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.16.16",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.17.17",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.18.18",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.19.19",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.20.20",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.21.21",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.22.22",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.23.23",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.24.24",
+    "region": "us-east-1",
+    "timestamp": "2026-09-04T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.25.25",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.26.26",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.27.27",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.28.28",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.29.29",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.30.30",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.31.31",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.32.32",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.33.33",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.34.34",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.35.35",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.36.36",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.37.37",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.38.38",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.39.39",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.40.40",
+    "region": "us-east-1",
+    "timestamp": "2026-09-05T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.41.41",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.42.42",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.43.43",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.44.44",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.45.45",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.46.46",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.47.47",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.48.48",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.49.49",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.50.50",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.51.51",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.52.52",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.53.53",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.54.54",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.55.55",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.56.56",
+    "region": "us-east-1",
+    "timestamp": "2026-09-06T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.57.57",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.58.58",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.59.59",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.60.60",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.61.61",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.62.62",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.63.63",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.64.64",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.65.65",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.66.66",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.67.67",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.68.68",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.69.69",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.70.70",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.71.71",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.72.72",
+    "region": "us-east-1",
+    "timestamp": "2026-09-07T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.73.73",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.74.74",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.75.75",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.76.76",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.77.77",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.78.78",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.79.79",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.80.80",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.81.81",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.82.82",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.83.83",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.84.84",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.85.85",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.86.86",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.87.87",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.88.88",
+    "region": "us-east-1",
+    "timestamp": "2026-09-08T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.89.89",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.90.90",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.91.91",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.92.92",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.93.93",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.94.94",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.95.95",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.96.96",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.97.97",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.98.98",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.99.99",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.100.100",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.101.101",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.102.102",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.103.103",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.104.104",
+    "region": "us-east-1",
+    "timestamp": "2026-09-09T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.105.105",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.106.106",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.107.107",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.108.108",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.109.109",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.110.110",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.111.111",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.112.112",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.113.113",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.114.114",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.115.115",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.116.116",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.117.117",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.118.118",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.119.119",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.120.120",
+    "region": "us-east-1",
+    "timestamp": "2026-09-10T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.121.121",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.122.122",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.123.123",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.124.124",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.125.125",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.126.126",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.127.127",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.128.128",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.129.129",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.130.130",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.131.131",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.132.132",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.133.133",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.134.134",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.135.135",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.136.136",
+    "region": "us-east-1",
+    "timestamp": "2026-09-11T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.137.137",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.138.138",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.139.139",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.140.140",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.141.141",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.142.142",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.143.143",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.144.144",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.145.145",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.146.146",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.147.147",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.148.148",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.149.149",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.150.150",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.151.151",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.152.152",
+    "region": "us-east-1",
+    "timestamp": "2026-09-12T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.153.153",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.154.154",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.155.155",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.156.156",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.157.157",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.158.158",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.159.159",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.160.160",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.161.161",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.162.162",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.163.163",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.164.164",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.165.165",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.166.166",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.167.167",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.168.168",
+    "region": "us-east-1",
+    "timestamp": "2026-09-13T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.169.169",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.170.170",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.171.171",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.172.172",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.173.173",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.174.174",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.175.175",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.176.176",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.177.177",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.178.178",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.179.179",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.180.180",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.181.181",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.182.182",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.183.183",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.184.184",
+    "region": "us-east-1",
+    "timestamp": "2026-09-14T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.185.185",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.186.186",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.187.187",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.188.188",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.189.189",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.190.190",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.191.191",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.192.192",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.193.193",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.194.194",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.195.195",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.196.196",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.197.197",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.198.198",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.199.199",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.200.0",
+    "region": "us-east-1",
+    "timestamp": "2026-09-15T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.201.1",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.202.2",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.203.3",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.204.4",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.205.5",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.206.6",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.207.7",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.208.8",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.209.9",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.210.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.211.11",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.212.12",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.213.13",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.214.14",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.215.15",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.216.16",
+    "region": "us-east-1",
+    "timestamp": "2026-09-16T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.217.17",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.218.18",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.219.19",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.220.20",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.221.21",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.222.22",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.223.23",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.224.24",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.225.25",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.226.26",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.227.27",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.228.28",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.229.29",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.230.30",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.231.31",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.232.32",
+    "region": "us-east-1",
+    "timestamp": "2026-09-17T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.233.33",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.234.34",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.235.35",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.236.36",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.237.37",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.238.38",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.239.39",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.240.40",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.241.41",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.242.42",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.243.43",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.244.44",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.245.45",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.246.46",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.247.47",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.248.48",
+    "region": "us-east-1",
+    "timestamp": "2026-09-18T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.249.49",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.250.50",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.251.51",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.252.52",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.253.53",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.254.54",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.0.55",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.1.56",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.2.57",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.3.58",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.4.59",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.5.60",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.6.61",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.7.62",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.8.63",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.9.64",
+    "region": "us-east-1",
+    "timestamp": "2026-09-19T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.10.65",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.11.66",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.12.67",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.13.68",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.14.69",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.15.70",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.16.71",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.17.72",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.18.73",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.19.74",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.20.75",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.21.76",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.22.77",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.23.78",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.24.79",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.25.80",
+    "region": "us-east-1",
+    "timestamp": "2026-09-20T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.26.81",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.27.82",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.28.83",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.29.84",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.30.85",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.31.86",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.32.87",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.33.88",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.34.89",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.35.90",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.36.91",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.37.92",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.38.93",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.39.94",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.40.95",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.41.96",
+    "region": "us-east-1",
+    "timestamp": "2026-09-21T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.42.97",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.43.98",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.44.99",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.45.100",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.46.101",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.47.102",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.48.103",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.49.104",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.50.105",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.51.106",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.52.107",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.53.108",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.54.109",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.55.110",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.56.111",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.57.112",
+    "region": "us-east-1",
+    "timestamp": "2026-09-22T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.58.113",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.59.114",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.60.115",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.61.116",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.62.117",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.63.118",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.64.119",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.65.120",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.66.121",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.67.122",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.68.123",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.69.124",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.70.125",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.71.126",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.72.127",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.73.128",
+    "region": "us-east-1",
+    "timestamp": "2026-09-23T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.74.129",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.75.130",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.76.131",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.77.132",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.78.133",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.79.134",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.80.135",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.81.136",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.82.137",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.83.138",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.84.139",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.85.140",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.86.141",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.87.142",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.88.143",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.89.144",
+    "region": "us-east-1",
+    "timestamp": "2026-09-24T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.90.145",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.91.146",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.92.147",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.93.148",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.94.149",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.95.150",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.96.151",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.97.152",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.98.153",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.99.154",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.100.155",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.101.156",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.102.157",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.103.158",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.104.159",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.105.160",
+    "region": "us-east-1",
+    "timestamp": "2026-09-25T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.106.161",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.107.162",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.108.163",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.109.164",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.110.165",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.111.166",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.112.167",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.113.168",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.114.169",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.115.170",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.116.171",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.117.172",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.118.173",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.119.174",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.120.175",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.121.176",
+    "region": "us-east-1",
+    "timestamp": "2026-09-26T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.122.177",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.123.178",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.124.179",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.125.180",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.126.181",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.127.182",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.128.183",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.129.184",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.130.185",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.131.186",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.132.187",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.133.188",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.134.189",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.135.190",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.136.191",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.137.192",
+    "region": "us-east-1",
+    "timestamp": "2026-09-27T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.138.193",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.139.194",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.140.195",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.141.196",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.142.197",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.143.198",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.144.199",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.145.0",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.146.1",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.147.2",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.148.3",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.149.4",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.150.5",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-grace",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-09876543",
+    "status": "SUCCESS",
+    "source_ip": "10.0.151.6",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.152.7",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.153.8",
+    "region": "us-east-1",
+    "timestamp": "2026-09-28T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.154.9",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.155.10",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:RunInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.156.11",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-oscar",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-999999",
+    "status": "SUCCESS",
+    "source_ip": "10.0.157.12",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.158.13",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.159.14",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.160.15",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.161.16",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.162.17",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.163.18",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-judy",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::audit-logs-2026/trail.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.164.19",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.165.20",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.166.21",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:StopInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.167.22",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.168.23",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.169.24",
+    "region": "us-east-1",
+    "timestamp": "2026-09-29T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.170.25",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.171.26",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.172.27",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-eve",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::frontend-assets/main.js",
+    "status": "SUCCESS",
+    "source_ip": "10.0.173.28",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.174.29",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.175.30",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.176.31",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-walter",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::ml-training-data/model.pt",
+    "status": "SUCCESS",
+    "source_ip": "10.0.177.32",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.178.33",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T13:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-sybil",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/sybil",
+    "status": "SUCCESS",
+    "source_ip": "10.0.179.34",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T14:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:CreateFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.180.35",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T16:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-david",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:prod-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.181.36",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T17:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-trent",
+    "service": "EC2",
+    "action": "ec2:DescribeInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.182.37",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T19:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-xavier",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:deployer",
+    "status": "SUCCESS",
+    "source_ip": "10.0.183.38",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T20:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-bob",
+    "service": "EC2",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-east-1:123456789012:instance/i-01234567",
+    "status": "SUCCESS",
+    "source_ip": "10.0.184.39",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T22:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-mallory",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:worker",
+    "status": "SUCCESS",
+    "source_ip": "10.0.185.40",
+    "region": "us-east-1",
+    "timestamp": "2026-09-30T23:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-frank",
+    "service": "IAM",
+    "action": "iam:GetUser",
+    "resource": "arn:aws:iam::123456789012:user/frank",
+    "status": "SUCCESS",
+    "source_ip": "10.0.186.41",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T01:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.187.42",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T02:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-peggy",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::product-analytics/daily.parquet",
+    "status": "SUCCESS",
+    "source_ip": "10.0.188.43",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T04:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-yvonne",
+    "service": "S3",
+    "action": "s3:PutObject",
+    "resource": "arn:aws:s3:::user-uploads/image.png",
+    "status": "SUCCESS",
+    "source_ip": "10.0.189.44",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T05:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-victor",
+    "service": "S3",
+    "action": "s3:ListBucket",
+    "resource": "arn:aws:s3:::logs-bucket/*",
+    "status": "SUCCESS",
+    "source_ip": "10.0.190.45",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T07:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-heidi",
+    "service": "S3",
+    "action": "s3:GetObject",
+    "resource": "arn:aws:s3:::qa-test-data/test1.json",
+    "status": "SUCCESS",
+    "source_ip": "10.0.191.46",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T08:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-zack",
+    "service": "IAM",
+    "action": "iam:ListUsers",
+    "resource": "arn:aws:iam::123456789012:root",
+    "status": "SUCCESS",
+    "source_ip": "10.0.192.47",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T10:15:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-ivan",
+    "service": "RDS",
+    "action": "rds:DescribeDBInstances",
+    "resource": "arn:aws:rds:us-east-1:123456789012:db:analytics-db",
+    "status": "SUCCESS",
+    "source_ip": "10.0.193.48",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T11:45:06.821171+00:00"
+  },
+  {
+    "user_id": "usr-charlie",
+    "service": "Lambda",
+    "action": "lambda:InvokeFunction",
+    "resource": "arn:aws:lambda:us-east-1:123456789012:function:api-handler",
+    "status": "SUCCESS",
+    "source_ip": "10.0.194.49",
+    "region": "us-east-1",
+    "timestamp": "2026-10-01T13:15:06.821171+00:00"
+  }
+]

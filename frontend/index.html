@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Access Shield X</title>
+<style>
+:root{--bg:#f2f5f3;--card:#fff;--ink:#14231c;--mut:#5b6a62;--line:#d8dfda;--acc:#0f4c5c;--g:#1f7a4d;--r:#b3372c;--o:#c26a10;--y:#a98400;--chip:#e7eee9}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1713;--card:#17221c;--ink:#e6efe8;--mut:#93a39a;--line:#2a3a31;--acc:#6cc3d6;--g:#4cc38a;--r:#f0776b;--o:#f0a050;--y:#e3c04d;--chip:#22322a}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,Segoe UI,sans-serif}
+main{max-width:1150px;margin:auto;padding:16px}h1{margin:0;font-size:24px}h2{font-size:15px;margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:12px}
+.row{display:flex;gap:12px;flex-wrap:wrap}.row>*{flex:1 1 200px}.two{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}@media(max-width:800px){.two{grid-template-columns:1fr}}
+.k b{display:block;font-size:28px}.k span{color:var(--mut);font-size:12px}
+button,select,input{font:inherit;padding:7px 10px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+button{background:var(--acc);color:var(--card);border-color:var(--acc);cursor:pointer;font-weight:600}button.s{background:none;color:var(--acc)}button:disabled{opacity:.5}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:6px;border-bottom:1px solid var(--line);text-align:left}tr.f{cursor:pointer}tr.f:hover,tr.sel{background:var(--chip)}
+.t{padding:1px 8px;border-radius:9px;color:#fff;font-size:11px;font-weight:700}.CRITICAL{background:var(--r)}.HIGH{background:var(--o)}.MEDIUM{background:var(--y)}.LOW{background:var(--g)}
+.chip{display:inline-block;padding:2px 8px;margin:2px;border-radius:9px;font-size:12px;background:var(--chip)}.chip.u{color:var(--r)}.chip.o{color:var(--g)}
+.bar{display:flex;height:12px;border-radius:6px;overflow:hidden;background:var(--chip)}.mut{color:var(--mut)}#err{color:var(--r)}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:10px}.cmp>div{background:var(--chip);border-radius:8px;padding:10px}
+</style></head><body><main>
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px"><div><h1>Access Shield X</h1><span class="mut">IAM least-privilege auditor (simulated logs and policies)</span></div>
+<span><button id="rst" class="s">Reset demo</button> <button id="run">Run audit</button></span></div><p id="err"></p>
+<div class="row" style="margin-top:10px">
+<div class="card k"><b id="k1">-</b><span>least-privilege score / 100</span></div>
+<div class="card k"><b id="k2">-</b><span>findings</span></div>
+<div class="card k"><b id="k3">-</b><span>high + critical</span></div>
+<div class="card k"><b id="k4">-</b><span>events analysed</span></div></div>
+<div class="card"><h2>Severity mix</h2><div class="bar" id="bar"></div><div id="leg" class="mut" style="margin-top:6px"></div></div>
+<div class="card"><h2>Why log-based auditing beats a static scan</h2><div id="mx" class="mut">Run audit to see.</div></div>
+<div class="card"><h2>Live scenario: change an input, watch the system adapt</h2>
+<div class="row"><select id="su"></select><input id="ss" value="S3"><input id="sa" value="s3:DeleteObject"><input id="sr" value="arn:aws:s3:::production-data/*"><button id="inj" style="flex:0 0 auto">Inject event and re-audit</button></div>
+<div id="cmp" style="margin-top:10px"></div></div>
+<div class="two"><div class="card"><h2>Findings for <select id="uu"></select></h2><div style="overflow-x:auto"><table id="ft"></table></div></div>
+<div><div class="card"><h2>Evidence (why this was flagged)</h2><div id="ev" class="mut">Click a finding.</div></div>
+<div class="card"><h2>Recommendation</h2><div id="rc" class="mut">Click a finding.</div></div></div></div>
+</main><script>
+const API='http://127.0.0.1:8000/api',$=i=>document.getElementById(i);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function j(u,o){const r=await fetch(API+u,o);if(!r.ok)throw new Error(u+' -> '+r.status+' '+(await r.text()).slice(0,200));return r.json()}
+const post=(u,b)=>j(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b||{})});
+let S={f:[],r:[],a:null,u:'usr-alice',sel:null};
+async function load(){S.f=await j('/findings');S.r=await j('/recommendations');draw()}
+async function audit(){S.a=await post('/audit/run');await load()}
+function draw(){
+ const a=S.a;$('k1').textContent=a?a.least_privilege_score:'run audit';$('k2').textContent=S.f.length;
+ $('k3').textContent=S.f.filter(x=>x.severity=='HIGH'||x.severity=='CRITICAL').length;$('k4').textContent=a?a.events_analyzed:'-';
+ const sev=['CRITICAL','HIGH','MEDIUM','LOW'],c={};sev.forEach(s=>c[s]=S.f.filter(x=>x.severity==s).length);const n=S.f.length||1;
+ $('bar').innerHTML=sev.map(s=>`<i class="${s}" style="width:${c[s]/n*100}%"></i>`).join('');
+ $('leg').innerHTML=sev.map(s=>`<span class="t ${s}">${s} ${c[s]}</span> `).join('');
+ const users=[...new Set(S.f.map(x=>x.user_id))].sort();
+ for(const id of['uu','su']){const el=$(id),cur=el.value||S.u;el.innerHTML=users.map(u=>`<option ${u==cur?'selected':''}>${esc(u)}</option>`).join('')}
+ S.u=$('uu').value||S.u;
+ $('ft').innerHTML='<tr><th>Severity</th><th>Type</th><th>Action</th><th>Risk</th></tr>'+S.f.filter(x=>x.user_id==S.u).map(x=>`<tr class="f ${x.id==S.sel?'sel':''}" data-id="${esc(x.id)}"><td><span class="t ${x.severity}">${x.severity}</span></td><td>${esc(x.finding_type)}</td><td>${esc(x.action)}</td><td>${x.risk_score}</td></tr>`).join('');
+ document.querySelectorAll('tr.f').forEach(t=>t.onclick=()=>pick(t.dataset.id));
+}
+async function pick(id){S.sel=id;draw();const e=await j('/findings/'+id+'/evidence'),r=S.r.find(x=>x.finding_id==id);
+ const ch=(l,c)=>(l||[]).map(x=>`<span class="chip ${c}">${esc(x)}</span>`).join('')||'<span class="mut">none</span>';
+ $('ev').innerHTML=`<p>${esc(e.why_flagged)}</p><p><b>Granted:</b> ${esc(e.assigned_permission)}</p><p><b>Actually used:</b><br>${ch(e.observed_usage,'o')}</p><p><b>Granted but never used:</b><br>${ch(e.unused_actions,'u')}</p><p><b>Resources seen:</b> ${ch(e.observed_resources,'o')}</p><p><b>Risk factors:</b> ${esc((e.risk_factors||[]).join('; '))}</p><p><b>Confidence:</b> ${e.confidence}%</p>`;
+ $('rc').innerHTML=r?`<p><b>Action:</b> ${esc(r.current_action)} &rarr; <b>${esc(r.recommended_action)}</b></p><p><b>Resource:</b> ${esc(r.current_resource)} &rarr; <b>${esc(r.recommended_resource)}</b></p><p>Risk reduction ${r.risk_reduction}% | confidence ${r.confidence}% | ${esc(r.status)}</p><p class="mut">${esc(r.reason)}</p><button onclick="dec(${r.id},'accept')">Accept</button> <button class="s" onclick="dec(${r.id},'reject')">Reject</button>`:'No recommendation.'}
+async function dec(id,w){await post('/recommendations/'+id+'/'+w);S.r=await j('/recommendations');pick(S.sel)}
+async function snap(u){const f=S.f.find(x=>x.user_id==u&&x.finding_type=='WILDCARD_ACTION')||S.f.find(x=>x.user_id==u);if(!f)return{};
+ const e=await j('/findings/'+f.id+'/evidence'),r=S.r.find(x=>x.finding_id==f.id);return{score:S.a&&S.a.least_privilege_score,used:e.observed_usage||[],unused:e.unused_actions||[],rec:r&&r.recommended_action,risk:f.risk_score,sev:f.severity,fa:f.action}}
+const box=(t,s)=>`<div><b>${t}</b><br>Score: <b>${s.score}</b><br>Finding: ${esc(s.fa)} (${s.sev}, risk ${s.risk})<br>Used: ${esc((s.used||[]).join(', '))}<br>Recommended: <b>${esc(s.rec)}</b></div>`;
+$('inj').onclick=async()=>{const b=$('inj');b.disabled=true;$('err').textContent='';try{
+ const u=$('su').value;if(!S.a)await audit();const before=await snap(u);
+ await post('/simulator/events',{user_id:u,service:$('ss').value,action:$('sa').value,resource:$('sr').value,status:'SUCCESS'});
+ await audit();const after=await snap(u);
+ $('cmp').innerHTML=`<div class="cmp">${box('Before event',before)}${box('After '+esc($('sa').value),after)}</div>`;
+ }catch(e){$('err').textContent=e.message}b.disabled=false};
+$('uu').onchange=()=>{S.u=$('uu').value;S.sel=null;draw()};
+$('run').onclick=async()=>{try{$('err').textContent='';await audit()}catch(e){$('err').textContent=e.message}};
+(async()=>{try{await load();if(!S.f.length)await audit();else{S.a=null}}catch(e){$('err').textContent='Cannot reach API ('+e.message+'). Is uvicorn running on port 8000?'}})();
+async function metrics(){try{const m=await j('/admin/metrics');$('mx').innerHTML=`A static scan of policy text finds <b>${m.static_detectable}</b> of <b>${m.total_findings}</b> findings. Comparing against access logs finds <b>${m.log_evidence_only}</b> more (unused, overbroad, excessive scope)${m.uplift_pct!==null?`, a <b>${m.uplift_pct}%</b> uplift`:''}. ${m.users_flagged} of ${m.users_total} users flagged. Average risk reduction from recommendations: <b>${m.avg_risk_reduction}%</b>.`}catch(e){}}
+const _audit=audit;audit=async()=>{await _audit();await metrics()};
+$('rst').onclick=async()=>{const b=$('rst');b.disabled=true;$('err').textContent='';try{await post('/admin/reset-demo');$('cmp').innerHTML='';S.sel=null;await audit()}catch(e){$('err').textContent=e.message}b.disabled=false};
+</script></body></html>

@@ -1,0 +1,22 @@
+[
+  {"id": "usr-alice", "name": "Alice Smith", "email": "alice.smith@company.com", "role": "Cloud Security Engineer", "department": "Security", "status": "Active"},
+  {"id": "usr-bob", "name": "Bob Jones", "email": "bob.jones@company.com", "role": "Senior DevOps Engineer", "department": "Infrastructure", "status": "Active"},
+  {"id": "usr-charlie", "name": "Charlie Brown", "email": "charlie.brown@company.com", "role": "Backend Developer", "department": "Engineering", "status": "Active"},
+  {"id": "usr-david", "name": "David Miller", "email": "david.miller@company.com", "role": "Database Administrator", "department": "Data", "status": "Active"},
+  {"id": "usr-eve", "name": "Eve Adams", "email": "eve.adams@company.com", "role": "Frontend Developer", "department": "Engineering", "status": "Active"},
+  {"id": "usr-frank", "name": "Frank White", "email": "frank.white@company.com", "role": "Security Analyst", "department": "Security", "status": "Active"},
+  {"id": "usr-grace", "name": "Grace Hopper", "email": "grace.hopper@company.com", "role": "Lead Architect", "department": "Infrastructure", "status": "Active"},
+  {"id": "usr-heidi", "name": "Heidi Klum", "email": "heidi.klum@company.com", "role": "QA Engineer", "department": "QA", "status": "Active"},
+  {"id": "usr-ivan", "name": "Ivan Terrible", "email": "ivan.terrible@company.com", "role": "Data Analyst", "department": "Data", "status": "Active"},
+  {"id": "usr-judy", "name": "Judy Garland", "email": "judy.garland@company.com", "role": "Compliance Officer", "department": "Compliance", "status": "Active"},
+  {"id": "usr-mallory", "name": "Mallory Black", "email": "mallory.black@company.com", "role": "Junior Developer", "department": "Engineering", "status": "Active"},
+  {"id": "usr-oscar", "name": "Oscar Wilde", "email": "oscar.wilde@company.com", "role": "Site Reliability Engineer", "department": "Infrastructure", "status": "Active"},
+  {"id": "usr-peggy", "name": "Peggy Sue", "email": "peggy.sue@company.com", "role": "Product Manager", "department": "Product", "status": "Active"},
+  {"id": "usr-sybil", "name": "Sybil Vane", "email": "sybil.vane@company.com", "role": "System Administrator", "department": "IT", "status": "Active"},
+  {"id": "usr-trent", "name": "Trent Boyett", "email": "trent.boyett@company.com", "role": "Network Engineer", "department": "Infrastructure", "status": "Active"},
+  {"id": "usr-victor", "name": "Victor Hugo", "email": "victor.hugo@company.com", "role": "Security Auditor", "department": "Security", "status": "Active"},
+  {"id": "usr-walter", "name": "Walter White", "email": "walter.white@company.com", "role": "Lead Data Scientist", "department": "Data", "status": "Active"},
+  {"id": "usr-xavier", "name": "Xavier Charles", "email": "xavier.charles@company.com", "role": "DevOps Engineer", "department": "Infrastructure", "status": "Active"},
+  {"id": "usr-yvonne", "name": "Yvonne Strahovski", "email": "yvonne.strahovski@company.com", "role": "Full Stack Engineer", "department": "Engineering", "status": "Active"},
+  {"id": "usr-zack", "name": "Zack Morris", "email": "zack.morris@company.com", "role": "Cloud Architect", "department": "Architecture", "status": "Active"}
+]
